@@ -1,4 +1,4 @@
-# XOAPModuleTemplateDSC
+# XOAPSTIGAugust2023DSC
 
 This repository is a template that can be used as a starting point for creating new DSC modules and resources.
 
@@ -12,7 +12,7 @@ Please check out common DSC Community [contributing guidelines](https://dsccommu
 
 ## Change log
 
-A full list of changes in each version can be found in the  [Releases](https://github.com/xoap-io/XOAPModuleTemplateDSC/releases).
+A full list of changes in each version can be found in the  [Releases](https://github.com/xoap-io/XOAPSTIGAugust2023DSC/releases).
 
 ## Documentation
 
@@ -38,7 +38,7 @@ XOAP_DSCResource [String] #ResourceName
 
 ## Configuration examples for each resource
 
-You can review the [Examples](/Examples/Resources) directory in the **XOAPModuleTemplateDSC** module
+You can review the [Examples](/Examples/DSCResources) directory in the **XOAPSTIGAugust2023DSC** module
 for some general usage scenarios for all the resources that are in the module.
 
 To implement the Module Template DSC module, add the following resources to your DSC configuration and adjust the parameters accordingly:
@@ -46,9 +46,9 @@ To implement the Module Template DSC module, add the following resources to your
 ### Add server to a collection
 
 ```PowerShell
-configuration 'XOAP_DSCResource'
+Configuration 'XOAP_DSCResource'
 {
-    Import-DscResource -ModuleName 'XOAPModuleTemplateDSC' -Name 'XOAP_DSCResource' -ModuleVersion '0.0.1'
+    Import-DscResource -ModuleName 'XOAPSTIGAugust2023DSC' -Name 'XOAP_DSCResource' -ModuleVersion '0.0.1'
     
     XOAP_DSCResource 'Example'
     {
@@ -70,5 +70,5 @@ DSC resources can easily be deployed via the invocation of
 with parameters
 
 ```powershell
-.\New-CompositeResource.ps1 -Module 'XOAPModuleTemplateDSC' -Version '0.0.1' -Resource 'DSCResource'
+.\New-CompositeResource.ps1 -Module 'XOAPSTIGAugust2023DSC' -Version '0.0.1' -Resource 'DSCResource'
 ```
