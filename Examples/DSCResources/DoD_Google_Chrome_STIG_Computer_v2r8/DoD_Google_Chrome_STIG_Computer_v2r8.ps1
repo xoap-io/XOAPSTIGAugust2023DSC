@@ -1,9 +1,9 @@
-Configuration 'DoD_Adobe_Acrobat_Reader_DC_Continuous_STIG_Computers_V2R1'
+Configuration 'DoD_Google_Chrome_STIG_Computer_v2r8'
 {
-	Import-DSCResource -Module 'XOAPSTIGAugust2023DSC' -Name 'DoD_Adobe_Acrobat_Reader_DC_Continuous_STIG_Computers_V2R1' -ModuleVersion '0.0.1'
+	Import-DSCResource -Module 'XOAPSTIGAugust2023DSC' -Name 'DoD_Google_Chrome_STIG_Computer_v2r8' -ModuleVersion '0.0.1'
 
-    DoD_Adobe_Acrobat_Reader_DC_Continuous_STIG_Computers_V2R1 'Example'
+    DoD_Google_Chrome_STIG_Computer_v2r8 'Example'
     {
     }
 }
-DoD_Adobe_Acrobat_Reader_DC_Continuous_STIG_Computers_V2R1 -OutputPath 'C:\DoD_Adobe_Acrobat_Reader_DC_Continuous_STIG_Computers_V2R1'
+DoD_Google_Chrome_STIG_Computer_v2r8 -OutputPath 'C:\DoD_Google_Chrome_STIG_Computer_v2r8'
